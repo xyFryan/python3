@@ -1,3 +1,3 @@
 #!/usr/bin/python3
- 
-print("hello678678")
+movies = ["The Holy Grail" , "the life of brain ", "The Meaning of Life"   ]
+print(movies[0])
