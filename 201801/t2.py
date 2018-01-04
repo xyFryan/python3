@@ -18,3 +18,15 @@ if a:
     print("false")
 else:
     print(a)
+movies=["The Holy Grail",'1975',"The Life of Brain",'91',["Graham Chapman","Micheal Palin",'John Cleese']]
+'''
+def 函数名 (参数):
+    函数代码组
+'''
+def print_lol(the_list):
+    for each_item in the_list:
+        if isinstance(each_item,list):
+            print_lol(each_item)
+        else:
+            print(each_item)
+print_lol(movies)
